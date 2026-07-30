@@ -22,15 +22,5 @@
     "TIME_ZONE": "Europe/Rome",
     "WARNING_MINUTES": "30",
     "LOOKAHEAD_DAYS": "14"
-  },
-
-  "secrets": {
-    "required": [
-      "GOOGLE_CLIENT_ID",
-      "GOOGLE_CLIENT_SECRET",
-      "ADMIN_TOKEN",
-      "STATE_SECRET",
-      "TOKEN_ENCRYPTION_KEY"
-    ]
   }
 }
