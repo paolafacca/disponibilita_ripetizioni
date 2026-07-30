@@ -165,3 +165,5 @@ http://localhost:8787/api/admin/google/callback
 - Refresh token e access token vengono cifrati prima di essere salvati in KV.
 - La pagina amministrativa invia il token nell'header `Authorization`, non nell'URL.
 - Per sicurezza ancora maggiore puoi proteggere `/admin/*` e `/api/admin/*` con Cloudflare Access quando usi un dominio personale.
+
+Deploy Cloudflare
