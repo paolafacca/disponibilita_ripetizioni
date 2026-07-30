@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 560" role="img" aria-label="Semaforo con luce green accesa">
+  <defs>
+    <linearGradient id="case" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a4f4c"/>
+      <stop offset="0.35" stop-color="#171a19"/>
+      <stop offset="0.7" stop-color="#080a09"/>
+      <stop offset="1" stop-color="#303532"/>
+    </linearGradient>
+    <radialGradient id="off" cx="42%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#2b312e"/>
+      <stop offset="0.5" stop-color="#111412"/>
+      <stop offset="1" stop-color="#030404"/>
+    </radialGradient>
+    <radialGradient id="on" cx="40%" cy="34%" r="70%">
+      <stop offset="0" stop-color="#fff8d9"/>
+      <stop offset="0.23" stop-color="#79ff9e"/>
+      <stop offset="0.62" stop-color="#00a83f"/>
+      <stop offset="1" stop-color="#350708"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="hood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#545a57"/>
+      <stop offset="0.38" stop-color="#171a19"/>
+      <stop offset="1" stop-color="#050606"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="180" cy="520" rx="110" ry="21" fill="#000" opacity="0.5"/>
+  <g>
+    <rect x="92" y="28" width="176" height="472" rx="30" fill="url(#case)" stroke="#626865" stroke-width="5"/>
+    <rect x="109" y="47" width="142" height="434" rx="20" fill="#080a09" stroke="#202421" stroke-width="3"/>
+    <path d="M90 102H42l19 75h29z" fill="url(#hood)" stroke="#303532" stroke-width="3"/>
+    <path d="M270 102h48l-19 75h-29z" fill="url(#hood)" stroke="#303532" stroke-width="3"/>
+    <path d="M90 231H42l19 75h29z" fill="url(#hood)" stroke="#303532" stroke-width="3"/>
+    <path d="M270 231h48l-19 75h-29z" fill="url(#hood)" stroke="#303532" stroke-width="3"/>
+    <path d="M90 360H42l19 75h29z" fill="url(#hood)" stroke="#303532" stroke-width="3"/>
+    <path d="M270 360h48l-19 75h-29z" fill="url(#hood)" stroke="#303532" stroke-width="3"/>
+    <circle cx="180" cy="132" r="55" fill="url(#off)" stroke="#343936" stroke-width="8" />
+    <circle cx="180" cy="261" r="55" fill="url(#off)" stroke="#343936" stroke-width="8" />
+    <circle cx="180" cy="390" r="55" fill="url(#on)" stroke="#343936" stroke-width="8" filter="url(#glow)"/>
+    <path d="M119 105c17-21 106-21 122 0" fill="none" stroke="#868d89" stroke-width="5" opacity="0.35"/>
+    <path d="M119 234c17-21 106-21 122 0" fill="none" stroke="#868d89" stroke-width="5" opacity="0.35"/>
+    <path d="M119 363c17-21 106-21 122 0" fill="none" stroke="#868d89" stroke-width="5" opacity="0.35"/>
+    <rect x="157" y="497" width="46" height="30" rx="5" fill="#131614" stroke="#555b58" stroke-width="4"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "semaforo-disponibilita",
+  "main": "./src/index.js",
+  "compatibility_date": "2026-07-30",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "APP_KV",
+      "id": "SOSTITUISCI_CON_ID_KV"
+    }
+  ],
+  "vars": {
+    "TIME_ZONE": "Europe/Rome",
+    "WARNING_MINUTES": "30",
+    "LOOKAHEAD_DAYS": "14"
+  }
+}

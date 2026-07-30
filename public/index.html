@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#09110d">
+    <title>Disponibilità</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="status-page state-loading">
+    <main class="status-shell" aria-live="polite" aria-busy="true">
+      <h1 id="status-title" class="status-title">CARICAMENTO…</h1>
+
+      <img
+        id="traffic-light"
+        class="traffic-light"
+        src="/img/semaforo-spento.svg"
+        alt="Semaforo in caricamento"
+        width="360"
+        height="560"
+      >
+
+      <section class="status-detail" aria-label="Dettaglio disponibilità">
+        <p id="status-line" class="status-line" hidden>
+          <span id="status-label"></span>
+          <strong id="status-time"></strong>
+        </p>
+        <p id="status-relative" class="status-relative">Aggiornamento in corso</p>
+      </section>
+
+      <p id="updated-at" class="updated-at"></p>
+    </main>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
