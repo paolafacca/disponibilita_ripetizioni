@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "semaforo-disponibilita",
+  "name": "disponibilita-ripetizioni",
   "main": "./src/index.js",
   "compatibility_date": "2026-07-30",
   "workers_dev": true,
@@ -12,7 +12,7 @@
   "kv_namespaces": [
     {
       "binding": "APP_KV",
-      "id": "SOSTITUISCI_CON_ID_KV"
+      "id": "80831b59a2ea4b4fb325a0fdc7119249"
     }
   ],
   "vars": {
