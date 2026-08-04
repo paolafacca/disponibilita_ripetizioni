@@ -1,0 +1,26 @@
+{
+  "name": "Disponibilità ripetizioni",
+  "short_name": "Disponibilità",
+  "description": "Disponibilità per le ripetizioni in tempo reale",
+  "lang": "it",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#09110d",
+  "theme_color": "#09110d",
+  "icons": [
+    {
+      "src": "/img/icona-semaforo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/icona-semaforo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
