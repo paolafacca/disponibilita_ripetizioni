@@ -1,6 +1,6 @@
 {
-  "name": "Ripetizioni",
-  "short_name": "Disponibilità",
+  "name": "Disponibilità ripetizioni",
+  "short_name": "Ripetizione",
   "description": "Disponibilità per le ripetizioni in tempo reale",
   "lang": "it",
   "start_url": "/",
